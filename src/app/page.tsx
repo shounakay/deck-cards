@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { TDeck, createDeck, generateRandomCards, test } from "./helpers";
+import { TDeck, createDeck, generateRandomCards } from "./helpers";
 import { DeckCard } from "./_components/DeckCard";
 import { DrawCard } from "./_components/DrawCard";
 
