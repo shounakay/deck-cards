@@ -27,15 +27,7 @@ export const generateRandomCards = (arr: TDeck[], num: number) => {
     const removedItem = originalArr.splice(rIdx, 1)[0];
     newArr.push(removedItem);
   }
-  test();
   return { newArr, remaining: originalArr };
-};
-
-export const test = () => {
-  const arr = [1, 2];
-  const list = [56, 60];
-  arr.splice(0, 0, ...list);
-  console.log("hi", arr);
 };
 
 export interface TDeck {

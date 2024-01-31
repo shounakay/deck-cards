@@ -10,7 +10,6 @@ const DRAW_SIZE = 5;
 export default function HomePage() {
   const [deck, setDeck] = useState<TDeck[]>(createDeck());
   const [drawnCards, setDrawnCards] = useState<TDeck[]>([]);
-  test();
   const onDrawCard = () => {
     const { newArr, remaining } = generateRandomCards(deck, DRAW_SIZE);
     setDeck(remaining);
